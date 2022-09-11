@@ -1,11 +1,11 @@
 import React from "react"
 
-function Cu(){
+function Extra(){
     return(
         <div>
-            <h1>Sobre o Cu</h1>
+            <h1>Sobre o Extra</h1>
         </div>
     )
 }
 
-export default Cu
+export default Extra

@@ -12,7 +12,7 @@ function NavBar (){
                     <a href="/Sobre">Sobre</a>
                 </li>
                 <li>
-                    <a href="/cu">Tag de cuzão</a>
+                    <a href="/extra">extra</a>
                 </li>
                 <li>
                     <a href="/login">Login</a>
