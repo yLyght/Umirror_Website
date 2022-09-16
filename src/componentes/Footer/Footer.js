@@ -4,6 +4,7 @@ import React from 'react'
 
 function Footer(){
     return (
+        <div className='wrapper'>
         <footer className="footer">
             <ul className="social_list">
                 <li><FaFacebook /></li>
@@ -11,6 +12,7 @@ function Footer(){
             </ul>
             <p className="copy_right"><span>uMirror</span> &copy; 2022</p>
         </footer>
+        </div>
     )
 }
 
