@@ -1,14 +1,11 @@
-.wrapper {
-    min-height: 100%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
 .footer{
     background-color: #222;
     color: #fff;
-    padding: 2em;
+    padding: 0,5em;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social_list{
