@@ -1,12 +1,19 @@
+.html
+{
+    height: 100%;
+}
+
 .footer{
     background-color: #222;
     color: #fff;
-    padding: 0,5em;
+    padding: 1em;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
+
+    min-height: 100%;
+    flex-direction: column;
 }
 
 .social_list{

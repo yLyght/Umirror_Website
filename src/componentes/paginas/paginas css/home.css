@@ -1,23 +1,43 @@
 *
 {
-    margin: 1;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.text
+section
 {
-    position: absolute;
-    z-index: 100;
-    color: #fda900;
+    padding: 100px;
+    min-height: 100vh;
 }
 
-.image
+.help
 {
-    height: 100vh;
+    position: relative;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background: url(./Umirror.gif);
-    background-size: cover;
-    background-position: center center;
+    min-height: 100vh;
+}
+
+.help .image
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1000px;
+}
+
+.help .text
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fda900;
+    width: calc(100% - 1000px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding: 100px;
 }
