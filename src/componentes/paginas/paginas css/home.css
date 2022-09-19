@@ -37,7 +37,37 @@ section
     height: 100%;
     display: flex;
     justify-content: center;
-    
     align-items: center;
     padding: 100px;
+}
+
+.info
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.info .image2
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 1000px;
+}
+
+.info .yeye
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fda900;
+    width: calc(100% - 1400px);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 30px;
 }
