@@ -15,5 +15,3 @@ do git
 # Por fim, sujestões no grupo
 
 Comunicar no grupo as mudanças feitas e sujestões. 
-
-# ASS. SODA
