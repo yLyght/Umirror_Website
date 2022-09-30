@@ -1,3 +1,13 @@
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +23,7 @@ section {
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-image: url(css-gif-background-6.gif);
+  background-image: url(Umirror.gif);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,14 +38,13 @@ section {
   width: 1000px;
 }
 
-
-
 .help .text {
   color: #fda900;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 90px;
+  text-align: center;
 }
 
 .help .text #slogan {
@@ -79,7 +88,24 @@ section {
   width: 1000px;
 }
 
-.info .yeye {
+.info h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
+}
+
+.info .yeye h3{
+  display: flex;
+  align-items: left;
+  color: #fda900;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.info .yeye h4{
   display: flex;
   justify-content: center;
   align-items: center;

@@ -6,31 +6,37 @@ function Home() {
     return (
         <div>
             <section className="help">
-                {/* <img src={imgA} alt="gif" className="image"/> */}
                 <container>
                     <div className="text" id="first">
                         <h1 id="slogan">O espelho que cuida de você</h1>
                     </div>
-
                 </container>
                 <div className="text" id="second">
-                    <h4>Nosso  projeto  consiste  em  um  espelho  visado  a  auxiliar  e  monitorar  pessoas  com
-                        distúrbios  e  problemas  comportamentais,  criando  gráficos  e  coletando  dados  para:
-                        que o usuário possa monitora seu estado mental,</h4>
+                    <h3>
+                        Nosso  projeto  consiste  em  um  espelho  visado  a  auxiliar  e  monitorar  pessoas  com
+                        distúrbios  e  problemas  comportamentais, criando  gráficos  e  coletando  dados  para
+                        que o usuário possa monitorar seu estado mental.
+                    </h3>
                 </div>
             </section>
             <section className="info">
-                {/* <img src={imgB} alt="nobro" className="image2"/> */}
+                <h1>Nossa Equipe:</h1>
                 <div className="yeye">
-                    <h1>
-                        Nosso time:
-                        <br/>
-                        <img src={"./paginas css/893.jpg"} alt="penis"/>
-                        <br/>
-                        Twitter
-                        <br/>
-                        Telegram
-                    </h1>
+                    <div>
+                        <h3>Luiz</h3><h4>,</h4>
+                    </div>
+                    <div>
+                        <h3>Enzo</h3><h4>,</h4>
+                    </div>
+                    <div>
+                        <h3>Julio</h3><h4>,</h4>
+                    </div>
+                    <div>
+                        <h3>Lucas</h3><h4>,</h4>
+                    </div>
+                    <div>
+                        <h3>João</h3><h4>,</h4>
+                    </div>
                 </div>
             </section>
         </div>
