@@ -14,11 +14,6 @@ body::-webkit-scrollbar {
   box-sizing: border-box;
 }
 
-section {
-  padding: 100px;
-  min-height: 100vh;
-}
-
 .help {
   position: relative;
   width: 100%;
@@ -28,14 +23,6 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.help .image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 1000px;
 }
 
 .help .text {
@@ -50,6 +37,16 @@ section {
 .help .text #slogan {
   font-size: 8vh;
 }
+
+.yeye
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+
 
 /* Efeito typewriter */
 /* 
@@ -80,14 +77,6 @@ section {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
-.info .image2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 1000px;
-}
-
 .info h1{
   display: flex;
   justify-content: center;
@@ -97,7 +86,7 @@ section {
   color: white;
 }
 
-.info .yeye h3{
+.info .cont h3{
   display: flex;
   align-items: left;
   color: #fda900;
@@ -105,7 +94,7 @@ section {
   padding: 20px;
 }
 
-.info .yeye h4{
+.info .cont h4{
   display: flex;
   justify-content: center;
   align-items: center;
