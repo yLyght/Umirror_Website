@@ -1,73 +1,115 @@
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; 
 }
 
-section
-{
-    padding: 100px;
-    min-height: 100vh;
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.help
-{
-    position: relative;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 100px;
+  min-height: 100vh;
+}
+
+.help {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(Umirror.gif);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.help .image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 1000px;
+}
+
+.help .text {
+  color: #fda900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  text-align: center;
+}
+
+.help .text #slogan {
+  font-size: 8vh;
+}
+
+/* Efeito typewriter */
+/* 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
     width: 100%;
-    min-height: 100vh;
+  }
+} */
+
+/* The typewriter cursor effect */
+/* @keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+} */
+
+.info {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-.help .image
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 1000px;
+.info .image2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 1000px;
 }
 
-.help .text
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #fda900;
-    width: calc(100% - 1000px);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
+.info h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
 }
 
-.info
-{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
+.info .yeye h3{
+  display: flex;
+  align-items: left;
+  color: #fda900;
+  font-size: 25px;
+  padding: 20px;
 }
 
-.info .image2
-{
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100%;
-    width: 1000px;
-}
-
-.info .yeye
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: #fda900;
-    width: calc(100% - 1400px);
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    font-size: 30px;
+.info .yeye h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-size: 30px;
+  color: white;
 }
