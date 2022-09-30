@@ -1,7 +1,6 @@
 import React from "react"
 import './paginas css/home.css'
 import imgA from "./paginas css/Umirror.gif"
-import imgB from "./paginas css/ranmo.png"
 
 function Home(){
     return(
@@ -16,7 +15,7 @@ function Home(){
             </div>
             </section>
             <section className="info">
-                <img src={imgB} alt="nobro" className="image2"/>
+                <img src="https://via.placeholder.com/2008x2448" alt="nobro" className="image2"/>
                 <div className="yeye">
                     <h4>
                     usarão  um  algoritmo  que 
