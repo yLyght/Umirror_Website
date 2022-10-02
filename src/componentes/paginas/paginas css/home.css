@@ -46,7 +46,50 @@ body::-webkit-scrollbar {
   background-color: rgba(0, 0, 0, 0.85);
 }
 
+.yeye .image{
+  position: relative;
+  width: 55%;
+  height: 100vh;
+}
 
+.yeye .giftext h1{
+  position: flex;
+  color: #fda900;
+  width: calc(100% - 1000px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.yeye .giftext h4{
+  position: flex;
+  color: white;
+  width: calc(100% - 1000px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.yeye .image2{
+  position: relative;
+  width: 55%;
+  height: 100vh;
+}
+
+.yeye .place h4{
+  position: flex;
+  color: #fda900;
+  width: calc(100% - 1000px);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
 
 /* Efeito typewriter */
 /* 
@@ -84,6 +127,8 @@ body::-webkit-scrollbar {
   padding: 100px;
   font-size: 30px;
   color: white;
+  background-color: #fda900;
+  padding: 20px;
 }
 
 .info .cont h3{
