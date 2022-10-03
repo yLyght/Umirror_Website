@@ -6,11 +6,9 @@ function Home() {
     return (
         <div>
             <section className="help">
-                <container>
                     <div className="text" id="first">
                         <h1 id="slogan">O espelho que cuida de você</h1>
                     </div>
-                </container>
                 <div className="text" id="second">
                     <h3>
                         Nosso  projeto  consiste  em  um  espelho  visado  a  auxiliar  e  monitorar  pessoas  com
@@ -25,9 +23,11 @@ function Home() {
                     <h1>Umirror é um espelho inteligente visado no monitoramento e alivio ou melhoramento do humor de seu usuario</h1>
                     <h4>Nosso  projeto  consiste  em  um  espelho  visado  a  auxiliar  e  monitorar  pessoas  com 
                     distúrbios  e  problemas  comportamentais,  criando  gráficos  e  coletando  dados  para 
-                    que o usuário possa monitorar seu estado mental,</h4>
+                    que o usuário possa monitorar seu estado mental.</h4>
                 </div>
-                <img src="https://via.placeholder.com/2008x2448" alt="nobro" className="image2"/>
+            </section>
+            <section className="yeye2">
+            <img src="https://via.placeholder.com/2008x2448" alt="nobro" className="image2"/>
                 <div className="place">
                     <h4>
                     usarão  um  algoritmo  que 

@@ -17,9 +17,7 @@ body {
 
 .toggle
 {
-    position: fixed;
-    top: 9px;
-    right: 20px;
+    position: flex;
     width: 45px;
     height: 45px;
     background: #fda900 url(./menu.png);
