@@ -40,20 +40,22 @@ function Home() {
             <section className="info">
                 <h1>Nossa Equipe:</h1>
                 <div className="cont">
-                    <div className="luiz">
-                        <h3>Luiz</h3>
-                    </div>
-                    <div className="enzo">
-                        <h3>Enzo</h3>
-                    </div>
-                    <div className="julio">
-                        <h3>Julio</h3>
-                    </div>
-                    <div className="lucas">
-                        <h3>Lucas</h3>
-                    </div>
-                    <div className="joao">
-                        <h3>João</h3>
+                    <div className="wrapper">
+                        <div className="luiz">
+                            <h3>Luiz</h3>
+                        </div>
+                        <div className="enzo">
+                            <h3>Enzo</h3>
+                        </div>
+                        <div className="julio">
+                            <h3>Julio</h3>
+                        </div>
+                        <div className="lucas">
+                            <h3>Lucas</h3>
+                        </div>
+                        <div className="joao">
+                            <h3>João</h3>
+                        </div>
                     </div>
                 </div>
             </section>
