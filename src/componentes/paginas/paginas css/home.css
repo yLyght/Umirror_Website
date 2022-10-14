@@ -6,6 +6,7 @@
   right: 0;
   background: #fda900;
   margin-right: -250px;
+  transition: 0.5s;
 }
 
 .sideMenu ul{
