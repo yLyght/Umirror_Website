@@ -1,3 +1,32 @@
+.sideMenu{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #fda900;
+  margin-right: -250px;
+}
+
+.sideMenu ul{
+  list-style: none;
+  padding: 0;
+  margin-top: 45px;
+  margin-left: 40px;
+}
+
+.sideMenu a{
+  text-decoration: none;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #000;
+  display: block;
+}
+
+.sideMenu a:hover{
+  color: white;
+}
+
 body {
   -ms-overflow-style: none;
   scrollbar-width: none;

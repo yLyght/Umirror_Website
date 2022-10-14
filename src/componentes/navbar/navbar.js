@@ -8,9 +8,7 @@ function NavBar (){
         <nav className="Nav">
             <a href="/">
             <img height="50" width="100" src={logoGif} alt="logo"/></a>
-            <ul>
-                <div className="toggle" onClick={menutoggle}/>
-            </ul>
+            <div className="toggle" onMouseOver={menutoggle}/>
         </nav>
     )
 }
