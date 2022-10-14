@@ -41,28 +41,23 @@ function Home() {
                 <h1>Nossa Equipe:</h1>
                 <div className="cont">
                     <div className="wrapper">
-                        <div className="luiz">
                             <h3>Luiz</h3>
                             <h4>Programador Front-End</h4>
-                        </div>
-                        <div className="enzo">
+                            <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
                             <h3>Enzo</h3>
                             <h4>Programador Back-End</h4>
-                        </div>
-                        <div className="julio">
+                            <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
                             <h3>Julio</h3>
                             <h4>Programador Back-End</h4>
-                        </div>
-                        <div className="lucas">
+                            <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
                             <h3>Lucas</h3>
                             <h4>Diretor de construção fisica(?)</h4>
-                        </div>
-                        <div className="joao">
+                            <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
                             <h3>João</h3>
                             <h4>Diretor Criativo</h4>
+                            <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
                         </div>
                     </div>
-                </div>
             </section>
         </div>
     )
