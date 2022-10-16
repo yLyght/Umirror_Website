@@ -6,6 +6,7 @@ import enzo from "./paginas css/photos/enzo.jpeg"
 import julio from "./paginas css/photos/julio.jpeg"
 import lucas from "./paginas css/photos/lucas.jpeg"
 import joao from "./paginas css/photos/joao.jpeg"
+import luiz from "./paginas css/photos/luiz.jpg"
 import menuclose from "../botão/menuClose"
 
 function Home() {
@@ -40,9 +41,9 @@ function Home() {
                 <section className="yeye" id="yeye">
                     <img src={imgA} alt="gif" className="image"/>
                     <div className="giftext">
-                        <h1>Umirror é um espelho inteligente visado no monitoramento e alivio ou melhoramento do humor de seu usuario</h1>
-                        <h4>Nosso  projeto  consiste  em  um  espelho  visado  a  auxiliar  e  monitorar  pessoas  com 
-                        distúrbios  e  problemas  comportamentais,  criando  gráficos  e  coletando  dados  para 
+                        <h1>Umirror é um espelho inteligente visado no monitoramento e alivio do humor de seu usuario</h1>
+                        <h4>Nosso projeto consiste em um espelho visado a auxiliar e monitorar pessoas com 
+                        distúrbios e problemas comportamentais. Criando gráficos e coletando dados para 
                         que o usuário possa monitorar seu estado mental.</h4>
                     </div>
                 </section>
@@ -50,8 +51,8 @@ function Home() {
                 <img src={imgB} alt="nobro" className="image2"/>
                     <div className="place">
                         <h4>
-                        usarão  um  algoritmo  que 
-                        usará dados de nosso software de reconhecimento facial para poder dar sugestões, 
+                        É usado um  algoritmo  que 
+                        processara dados de nosso software de reconhecimento facial para poder dar sugestões, 
                         tais quais aparecerão em telas de LCD plantadas atrás  do  espelho  e  seu  painel 
                         refletivo, que  o  usuário  poderá  ver  enquanto  se  arruma  para  seu  dia. 
                         </h4>
@@ -62,19 +63,19 @@ function Home() {
                     <div className="cont">
                         <div className="wrapper">
                                 <h3>Luiz</h3>
-                                <h4>Programador Front-End</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="luiz"/>
+                                <h4>Diretor de Mídias Sociais, Programador Front-end</h4>
+                                <img src={luiz} alt="luiz"/>
                                 <h3>Enzo</h3>
-                                <h4>Programador Back-End</h4>
+                                <h4>Diretor de projeto, Programador Back-end</h4>
                                 <img src={enzo} alt="enzo"/>
                                 <h3>Julio</h3>
-                                <h4>Programador Back-End</h4>
+                                <h4>Programador Front-End</h4>
                                 <img src={julio} alt="julio"/>
                                 <h3>Lucas</h3>
-                                <h4>Diretor de construção fisica(?)</h4>
+                                <h4>Construtor de Projeto e Diretor de Vídeo</h4>
                                 <img src={lucas} alt="lucas"/>
                                 <h3>João</h3>
-                                <h4>Diretor Criativo</h4>
+                                <h4>Animador de Vídeo e Criação de Design</h4>
                                 <img src={joao} alt="joao"/>
                             </div>
                         </div>
