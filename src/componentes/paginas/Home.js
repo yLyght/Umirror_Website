@@ -20,7 +20,7 @@ function Home() {
                         <a href="#info">Equipe</a>
                         </li>
                         <li>
-                        <a href="https://charts.mongodb.com/charts-project-0-nhjgr/embed/dashboards?id=633d8bb3-4c53-4d83-89dd-0e88e56448d6&theme=light&autoRefresh=true&maxDataAge=3600&showTitleAndDesc=false&scalingWidth=fixed&scalingHeight=fixed" target="blank">Análise</a>
+                        <a href="https://charts.mongodb.com/charts-project-0-nhjgr/embed/dashboards?id=633d8bb3-4c53-4d83-89dd-0e88e56448d6&theme=dark&autoRefresh=true&maxDataAge=1800&showTitleAndDesc=false&scalingWidth=fixed&scalingHeight=fixed" target="blank">Análise</a>
                         </li>
                     </ul>
                 </div>
