@@ -1,6 +1,11 @@
 import React from "react"
 import './paginas css/home.css'
 import imgA from "./paginas css/0001-0110-_1_.gif"
+import imgB from "./paginas css/baner.jpeg"
+import enzo from "./paginas css/photos/enzo.jpeg"
+import julio from "./paginas css/photos/julio.jpeg"
+import lucas from "./paginas css/photos/lucas.jpeg"
+import joao from "./paginas css/photos/joao.jpeg"
 import menuclose from "../botão/menuClose"
 
 function Home() {
@@ -42,7 +47,7 @@ function Home() {
                     </div>
                 </section>
                 <section className="yeye2">
-                <img src="https://via.placeholder.com/2008x2448" alt="nobro" className="image2"/>
+                <img src={imgB} alt="nobro" className="image2"/>
                     <div className="place">
                         <h4>
                         usarão  um  algoritmo  que 
@@ -58,19 +63,19 @@ function Home() {
                         <div className="wrapper">
                                 <h3>Luiz</h3>
                                 <h4>Programador Front-End</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
+                                <img src="https://via.placeholder.com/1008x848" alt="luiz"/>
                                 <h3>Enzo</h3>
                                 <h4>Programador Back-End</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
+                                <img src={enzo} alt="enzo"/>
                                 <h3>Julio</h3>
                                 <h4>Programador Back-End</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
+                                <img src={julio} alt="julio"/>
                                 <h3>Lucas</h3>
                                 <h4>Diretor de construção fisica(?)</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
+                                <img src={lucas} alt="lucas"/>
                                 <h3>João</h3>
                                 <h4>Diretor Criativo</h4>
-                                <img src="https://via.placeholder.com/1008x848" alt="nobro"/>
+                                <img src={joao} alt="joao"/>
                             </div>
                         </div>
                 </section>

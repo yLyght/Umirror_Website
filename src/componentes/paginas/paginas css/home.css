@@ -117,7 +117,7 @@ body::-webkit-scrollbar {
 }
 
 .yeye2 .image2{
-  width: 126%;
+  width: 55%;
   height: 100vh;
 }
 
@@ -184,10 +184,19 @@ body::-webkit-scrollbar {
   text-align: center;
   color: #fda900;
   font-size: 25px;
+  margin-top: 30px;
 }
 
 .info .cont .wrapper h4{
   text-align: center;
   color: white;
   font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cont img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vh;
 }
